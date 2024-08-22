@@ -14,6 +14,8 @@
 		B27CA2812C770F1700A5AA3A /* GoQuestionnaireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27CA2802C770F1700A5AA3A /* GoQuestionnaireTests.swift */; };
 		B27CA28B2C770F1700A5AA3A /* GoQuestionnaireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27CA28A2C770F1700A5AA3A /* GoQuestionnaireUITests.swift */; };
 		B27CA28D2C770F1700A5AA3A /* GoQuestionnaireUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27CA28C2C770F1700A5AA3A /* GoQuestionnaireUITestsLaunchTests.swift */; };
+		B27CA29A2C77171800A5AA3A /* QuestionnaireListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27CA2992C77171800A5AA3A /* QuestionnaireListView.swift */; };
+		B27CA29C2C77176500A5AA3A /* QuestionnaireDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27CA29B2C77176500A5AA3A /* QuestionnaireDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		B27CA2862C770F1700A5AA3A /* GoQuestionnaireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoQuestionnaireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27CA28A2C770F1700A5AA3A /* GoQuestionnaireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoQuestionnaireUITests.swift; sourceTree = "<group>"; };
 		B27CA28C2C770F1700A5AA3A /* GoQuestionnaireUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoQuestionnaireUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B27CA2992C77171800A5AA3A /* QuestionnaireListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireListView.swift; sourceTree = "<group>"; };
+		B27CA29B2C77176500A5AA3A /* QuestionnaireDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				B27CA26E2C770F1100A5AA3A /* GoQuestionnaireApp.swift */,
 				B27CA2702C770F1100A5AA3A /* ContentView.swift */,
+				B27CA2992C77171800A5AA3A /* QuestionnaireListView.swift */,
+				B27CA29B2C77176500A5AA3A /* QuestionnaireDetailView.swift */,
 				B27CA2722C770F1600A5AA3A /* Assets.xcassets */,
 				B27CA2742C770F1600A5AA3A /* GoQuestionnaire.entitlements */,
 				B27CA2752C770F1600A5AA3A /* Preview Content */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B27CA2712C770F1100A5AA3A /* ContentView.swift in Sources */,
+				B27CA29C2C77176500A5AA3A /* QuestionnaireDetailView.swift in Sources */,
+				B27CA29A2C77171800A5AA3A /* QuestionnaireListView.swift in Sources */,
 				B27CA26F2C770F1100A5AA3A /* GoQuestionnaireApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
